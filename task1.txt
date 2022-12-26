@@ -1,0 +1,13 @@
+Read the files mentioned below in pandas and perform the below tasks:-
+a. diabetic_data.csv
+b. patient_geo.csv
+
+
+1. Join both the datasets
+2. Replace values in Gender column as - Female: 0 and Male:1 
+3. Convert all column names to upper case
+4. Convert all the data in upper case
+5. Save the joined output as an excel file --> output.xlsx
+
+vimdh paper
+/Users/nimitgupta/Desktop/joined_dataframe-3.xlsx
