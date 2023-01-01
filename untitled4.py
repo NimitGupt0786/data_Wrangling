@@ -14,6 +14,9 @@ dataset2 = pd.read_csv('/content/patient_geo.csv')
 print(dataset1)
 print(dataset2)
 
+result = dataset1.join(dataset2.set_index(["encounter_id", "patient_nbr"]),on=["encounter_id", "patient_nbr"], how="outer",lsuffix="_x",rsuffix="_y",)
+print(result)
+
 final_dataset = pd.merge(dataset1, dataset2, how="outer")
 print(final_dataset)
 
